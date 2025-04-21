@@ -1,7 +1,5 @@
 import React from 'react';
 const serverURL = 'http://localhost:3000';
-
-// import image from "../../../my-express-project-oms/src/config/uploads"
 const ProductCard = ({ product }) => {
     console.log("product product?.images[0]",product?.images[0])
   return (
